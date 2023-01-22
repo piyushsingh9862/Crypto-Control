@@ -14,6 +14,7 @@
 		4B65497A297C8396003AA8B7 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B654979297C8396003AA8B7 /* Color.swift */; };
 		4B654980297C8C69003AA8B7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B65497F297C8C69003AA8B7 /* HomeView.swift */; };
 		4B654984297C8E18003AA8B7 /* CircleButtonVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B654983297C8E18003AA8B7 /* CircleButtonVIew.swift */; };
+		4B654987297DC310003AA8B7 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B654986297DC310003AA8B7 /* CoinModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		4B654979297C8396003AA8B7 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		4B65497F297C8C69003AA8B7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4B654983297C8E18003AA8B7 /* CircleButtonVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonVIew.swift; sourceTree = "<group>"; };
+		4B654986297DC310003AA8B7 /* CoinModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		4B654978297C8367003AA8B7 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				4B654985297DC2F5003AA8B7 /* Models */,
 				4B65497B297C8C17003AA8B7 /* Core */,
 				4B654979297C8396003AA8B7 /* Color.swift */,
 			);
@@ -130,6 +133,14 @@
 				4B654983297C8E18003AA8B7 /* CircleButtonVIew.swift */,
 			);
 			path = CircleButton;
+			sourceTree = "<group>";
+		};
+		4B654985297DC2F5003AA8B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4B654986297DC310003AA8B7 /* CoinModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +217,7 @@
 				4B65496B297C7DCB003AA8B7 /* ContentView.swift in Sources */,
 				4B654980297C8C69003AA8B7 /* HomeView.swift in Sources */,
 				4B654969297C7DCB003AA8B7 /* CryptoApp.swift in Sources */,
+				4B654987297DC310003AA8B7 /* CoinModel.swift in Sources */,
 				4B65497A297C8396003AA8B7 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
