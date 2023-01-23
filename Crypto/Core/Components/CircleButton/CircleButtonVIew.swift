@@ -38,7 +38,7 @@ struct CircleButtonVIew_Previews: PreviewProvider {
             
             CircleButtonVIew(iconName: "plus")
                 .previewLayout(.sizeThatFits)
-                .colorScheme(.dark)
+                .preferredColorScheme(.dark)
             
         }
             
